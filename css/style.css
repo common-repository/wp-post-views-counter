@@ -1,0 +1,16 @@
+/* Basic Styles For the Plugin */
+.thea-post-views {display: table;margin: 25px 0px;background: transparent;padding:0px;font-size:20px;height: 42px;width:100%;max-width:100%;}
+.thea-post-views h4{text-transform:uppercase;padding: 10px 8px;;display:table-cell;margin:0px;height: 42px;vertical-align:middle}
+.thea-post-views .thea-icon-eye{padding: 4px;display: table-cell;vertical-align: middle;height: 42px;text-align:center;}
+.post-views-widget.thea-widget{text-align:center;}
+.post-views-widget .view-box {margin: 10px;}
+.post-views-widget .view-box .views{font-size:24px;font-weight:bold;}
+.post-views-widget .view-box .view-subtitle{font-size:16px;}
+.post-views-widget .credit{font-size:10px;margin-top:10px;display: block;text-align: right;font-style: italic;}.post-views-widget .credit a{text-decoration:none;}
+
+@media(max-width:750px){
+	.thea-post-views,.thea-post-views h4,.thea-post-views .thea-icon-eye{height:auto;}
+}
+@media(max-width:550px){
+	.thea-post-views,.thea-post-views h4,.thea-post-views .thea-icon-eye{display:block;}
+}
